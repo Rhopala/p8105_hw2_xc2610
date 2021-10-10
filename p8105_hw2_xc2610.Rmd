@@ -267,5 +267,5 @@ tb3_data <- baby_name_data %>%
 
 ## make the scatter plot using count of names VS popular rank
 ggplot(tb3_data, aes(x=rank, y=count)) +
-  geom_point(size=2, shape=16)
+  geom_point(size=2, shape=16) + ggtitle("Count of Names vs. Popularity Rank \n of White Non-Hispanic Male Baby Born in 2016")
 ```
